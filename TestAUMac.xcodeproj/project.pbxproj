@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2E30822BB4FAA400602391 /* TestAUMac_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E30812BB4FAA400602391 /* TestAUMac_iOSApp.swift */; };
+		2A2E30842BB4FAA400602391 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E30832BB4FAA400602391 /* ContentView.swift */; };
+		2A2E30862BB4FAA700602391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2E30852BB4FAA700602391 /* Assets.xcassets */; };
+		2A2E30892BB4FAA700602391 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2E30882BB4FAA700602391 /* Preview Assets.xcassets */; };
+		2A2E30952BB4FC5F00602391 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA862BB3CDB60086040B /* Parameters.swift */; };
+		2A2E30962BB4FC5F00602391 /* TestAUMacExtensionAudioUnit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA7F2BB3CDB60086040B /* TestAUMacExtensionAudioUnit.mm */; };
+		2A2E30972BB4FC5F00602391 /* ObservableAUParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA962BB3CDB60086040B /* ObservableAUParameter.swift */; };
+		2A2E30982BB4FC5F00602391 /* TestAUMacExtensionMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA8D2BB3CDB60086040B /* TestAUMacExtensionMainView.swift */; };
+		2A2E30992BB4FC5F00602391 /* ParameterSpecBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA762BB3CDB60086040B /* ParameterSpecBase.swift */; };
+		2A2E309A2BB4FC5F00602391 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA982BB3CDB60086040B /* AudioUnitViewController.swift */; };
+		2A2E309B2BB4FC5F00602391 /* ParameterSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA8F2BB3CDB60086040B /* ParameterSlider.swift */; };
+		2A2E309C2BB4FC5F00602391 /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA792BB3CDB60086040B /* CrossPlatform.swift */; };
+		2A2E309D2BB4FC5F00602391 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA7B2BB3CDB60086040B /* String+Utils.swift */; };
+		2A2E30A02BB4FC5F00602391 /* TestAUMacExtensionDSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA8A2BB3CDB60086040B /* TestAUMacExtensionDSPKernel.hpp */; };
+		2A2E30A12BB4FC5F00602391 /* TestAUMacExtensionAUProcessHelper.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA822BB3CDB60086040B /* TestAUMacExtensionAUProcessHelper.hpp */; };
+		2A2E30A22BB4FC5F00602391 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA712BB3CDB60086040B /* README.md */; };
+		2A59DA492BB3CDB50086040B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA482BB3CDB50086040B /* ContentView.swift */; };
+		2A59DA4D2BB3CDB50086040B /* ViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA4C2BB3CDB50086040B /* ViewControllerRepresentable.swift */; };
+		2A59DA502BB3CDB50086040B /* Synth.aif in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA4F2BB3CDB50086040B /* Synth.aif */; };
+		2A59DA522BB3CDB50086040B /* SimplePlayEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA512BB3CDB50086040B /* SimplePlayEngine.swift */; };
+		2A59DA552BB3CDB50086040B /* MIDIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA542BB3CDB50086040B /* MIDIManager.swift */; };
+		2A59DA572BB3CDB50086040B /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA562BB3CDB50086040B /* TypeAliases.swift */; };
+		2A59DA5A2BB3CDB50086040B /* StringHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA592BB3CDB50086040B /* StringHelpers.swift */; };
+		2A59DA5D2BB3CDB50086040B /* AudioUnitHostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA5C2BB3CDB50086040B /* AudioUnitHostModel.swift */; };
+		2A59DA5F2BB3CDB50086040B /* AudioUnitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA5E2BB3CDB50086040B /* AudioUnitViewModel.swift */; };
+		2A59DA612BB3CDB50086040B /* TestAUMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA602BB3CDB50086040B /* TestAUMacApp.swift */; };
+		2A59DA642BB3CDB50086040B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA632BB3CDB50086040B /* Preview Assets.xcassets */; };
+		2A59DA662BB3CDB60086040B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA652BB3CDB60086040B /* Assets.xcassets */; };
+		2A59DA6D2BB3CDB60086040B /* TestAUMacExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A59DA6C2BB3CDB60086040B /* TestAUMacExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2A59DA722BB3CDB60086040B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA712BB3CDB60086040B /* README.md */; };
+		2A59DA772BB3CDB60086040B /* ParameterSpecBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA762BB3CDB60086040B /* ParameterSpecBase.swift */; };
+		2A59DA7A2BB3CDB60086040B /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA792BB3CDB60086040B /* CrossPlatform.swift */; };
+		2A59DA7C2BB3CDB60086040B /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA7B2BB3CDB60086040B /* String+Utils.swift */; };
+		2A59DA802BB3CDB60086040B /* TestAUMacExtensionAudioUnit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA7F2BB3CDB60086040B /* TestAUMacExtensionAudioUnit.mm */; };
+		2A59DA832BB3CDB60086040B /* TestAUMacExtensionAUProcessHelper.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA822BB3CDB60086040B /* TestAUMacExtensionAUProcessHelper.hpp */; };
+		2A59DA872BB3CDB60086040B /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA862BB3CDB60086040B /* Parameters.swift */; };
+		2A59DA8B2BB3CDB60086040B /* TestAUMacExtensionDSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 2A59DA8A2BB3CDB60086040B /* TestAUMacExtensionDSPKernel.hpp */; };
+		2A59DA8E2BB3CDB60086040B /* TestAUMacExtensionMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA8D2BB3CDB60086040B /* TestAUMacExtensionMainView.swift */; };
+		2A59DA902BB3CDB60086040B /* ParameterSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA8F2BB3CDB60086040B /* ParameterSlider.swift */; };
+		2A59DA972BB3CDB60086040B /* ObservableAUParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA962BB3CDB60086040B /* ObservableAUParameter.swift */; };
+		2A59DA992BB3CDB60086040B /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA982BB3CDB60086040B /* AudioUnitViewController.swift */; };
+		2AB4CEA72BB4FF6D00707899 /* TestAUMacExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A2E30A72BB4FC5F00602391 /* TestAUMacExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AB4CEB22BB5023100707899 /* AudioUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB4CEB12BB5023100707899 /* AudioUnitViewController.xib */; };
+		2AB4CEB62BB5029500707899 /* AudioUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB4CEB52BB5029500707899 /* AudioUnitViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A59DA6E2BB3CDB60086040B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A59DA3D2BB3CDB50086040B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A59DA6B2BB3CDB60086040B;
+			remoteInfo = TestAUMacExtension;
+		};
+		2AB4CEA82BB4FF6D00707899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A59DA3D2BB3CDB50086040B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2E30932BB4FC5F00602391;
+			remoteInfo = TestAUMacExtension_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A59DAA02BB3CDB60086040B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A59DA6D2BB3CDB60086040B /* TestAUMacExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB4CEAA2BB4FF6D00707899 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2AB4CEA72BB4FF6D00707899 /* TestAUMacExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A2E307F2BB4FAA400602391 /* TestAUMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAUMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2E30812BB4FAA400602391 /* TestAUMac_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAUMac_iOSApp.swift; sourceTree = "<group>"; };
+		2A2E30832BB4FAA400602391 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A2E30852BB4FAA700602391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2E30882BB4FAA700602391 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A2E308D2BB4FAC500602391 /* TestAUMac_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestAUMac_iOS.entitlements; sourceTree = "<group>"; };
+		2A2E30A72BB4FC5F00602391 /* TestAUMacExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestAUMacExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2E30A82BB4FC5F00602391 /* TestAUMacExtension copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestAUMacExtension copy-Info.plist"; path = "/System/Volumes/Data/Developer/codes/TestAUMac/TestAUMacExtension copy-Info.plist"; sourceTree = "<absolute>"; };
+		2A59DA452BB3CDB50086040B /* TestAUMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAUMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A59DA482BB3CDB50086040B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A59DA4C2BB3CDB50086040B /* ViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		2A59DA4F2BB3CDB50086040B /* Synth.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Synth.aif; sourceTree = "<group>"; };
+		2A59DA512BB3CDB50086040B /* SimplePlayEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayEngine.swift; sourceTree = "<group>"; };
+		2A59DA542BB3CDB50086040B /* MIDIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIManager.swift; sourceTree = "<group>"; };
+		2A59DA562BB3CDB50086040B /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
+		2A59DA592BB3CDB50086040B /* StringHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelpers.swift; sourceTree = "<group>"; };
+		2A59DA5C2BB3CDB50086040B /* AudioUnitHostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitHostModel.swift; sourceTree = "<group>"; };
+		2A59DA5E2BB3CDB50086040B /* AudioUnitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewModel.swift; sourceTree = "<group>"; };
+		2A59DA602BB3CDB50086040B /* TestAUMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAUMacApp.swift; sourceTree = "<group>"; };
+		2A59DA632BB3CDB50086040B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A59DA652BB3CDB60086040B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A59DA672BB3CDB60086040B /* TestAUMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestAUMac.entitlements; sourceTree = "<group>"; };
+		2A59DA6C2BB3CDB60086040B /* TestAUMacExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestAUMacExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A59DA712BB3CDB60086040B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A59DA742BB3CDB60086040B /* TestAUMacExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestAUMacExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A59DA762BB3CDB60086040B /* ParameterSpecBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterSpecBase.swift; sourceTree = "<group>"; };
+		2A59DA792BB3CDB60086040B /* CrossPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatform.swift; sourceTree = "<group>"; };
+		2A59DA7B2BB3CDB60086040B /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		2A59DA7E2BB3CDB60086040B /* TestAUMacExtensionAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAUMacExtensionAudioUnit.h; sourceTree = "<group>"; };
+		2A59DA7F2BB3CDB60086040B /* TestAUMacExtensionAudioUnit.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestAUMacExtensionAudioUnit.mm; sourceTree = "<group>"; };
+		2A59DA822BB3CDB60086040B /* TestAUMacExtensionAUProcessHelper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestAUMacExtensionAUProcessHelper.hpp; sourceTree = "<group>"; };
+		2A59DA852BB3CDB60086040B /* TestAUMacExtensionParameterAddresses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAUMacExtensionParameterAddresses.h; sourceTree = "<group>"; };
+		2A59DA862BB3CDB60086040B /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		2A59DA892BB3CDB60086040B /* SinOscillator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinOscillator.h; sourceTree = "<group>"; };
+		2A59DA8A2BB3CDB60086040B /* TestAUMacExtensionDSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestAUMacExtensionDSPKernel.hpp; sourceTree = "<group>"; };
+		2A59DA8D2BB3CDB60086040B /* TestAUMacExtensionMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAUMacExtensionMainView.swift; sourceTree = "<group>"; };
+		2A59DA8F2BB3CDB60086040B /* ParameterSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterSlider.swift; sourceTree = "<group>"; };
+		2A59DA962BB3CDB60086040B /* ObservableAUParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAUParameter.swift; sourceTree = "<group>"; };
+		2A59DA982BB3CDB60086040B /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		2A59DA9A2BB3CDB60086040B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB4CEB02BB5023100707899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AudioUnitViewController.xib; sourceTree = "<group>"; };
+		2AB4CEB42BB5029500707899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AudioUnitViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2E307C2BB4FAA400602391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2E309E2BB4FC5F00602391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A59DA422BB3CDB50086040B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A59DA692BB3CDB60086040B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2E30802BB4FAA400602391 /* TestAUMac_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A2E308D2BB4FAC500602391 /* TestAUMac_iOS.entitlements */,
+				2A2E30812BB4FAA400602391 /* TestAUMac_iOSApp.swift */,
+				2A2E30832BB4FAA400602391 /* ContentView.swift */,
+				2A2E30852BB4FAA700602391 /* Assets.xcassets */,
+				2A2E30872BB4FAA700602391 /* Preview Content */,
+			);
+			path = TestAUMac_iOS;
+			sourceTree = "<group>";
+		};
+		2A2E30872BB4FAA700602391 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A2E30882BB4FAA700602391 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A2E308E2BB4FAE500602391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A2E30AC2BB4FCC700602391 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2AB4CEB52BB5029500707899 /* AudioUnitViewController.xib */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		2A59DA3C2BB3CDB50086040B = {
+			isa = PBXGroup;
+			children = (
+				2A59DA472BB3CDB50086040B /* TestAUMac */,
+				2A59DA702BB3CDB60086040B /* TestAUMacExtension */,
+				2A2E30802BB4FAA400602391 /* TestAUMac_iOS */,
+				2A59DA462BB3CDB50086040B /* Products */,
+				2A2E308E2BB4FAE500602391 /* Frameworks */,
+				2A2E30A82BB4FC5F00602391 /* TestAUMacExtension copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		2A59DA462BB3CDB50086040B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA452BB3CDB50086040B /* TestAUMac.app */,
+				2A59DA6C2BB3CDB60086040B /* TestAUMacExtension.appex */,
+				2A2E307F2BB4FAA400602391 /* TestAUMac.app */,
+				2A2E30A72BB4FC5F00602391 /* TestAUMacExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A59DA472BB3CDB50086040B /* TestAUMac */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA482BB3CDB50086040B /* ContentView.swift */,
+				2A59DA602BB3CDB50086040B /* TestAUMacApp.swift */,
+				2A59DA652BB3CDB60086040B /* Assets.xcassets */,
+				2A59DA672BB3CDB60086040B /* TestAUMac.entitlements */,
+				2A59DA4A2BB3CDB50086040B /* Common */,
+				2A59DA5B2BB3CDB50086040B /* Model */,
+				2A59DA622BB3CDB50086040B /* Preview Content */,
+			);
+			path = TestAUMac;
+			sourceTree = "<group>";
+		};
+		2A59DA4A2BB3CDB50086040B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA562BB3CDB50086040B /* TypeAliases.swift */,
+				2A59DA4B2BB3CDB50086040B /* UI */,
+				2A59DA4E2BB3CDB50086040B /* Audio */,
+				2A59DA532BB3CDB50086040B /* MIDI */,
+				2A59DA582BB3CDB50086040B /* String */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2A59DA4B2BB3CDB50086040B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA4C2BB3CDB50086040B /* ViewControllerRepresentable.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2A59DA4E2BB3CDB50086040B /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA4F2BB3CDB50086040B /* Synth.aif */,
+				2A59DA512BB3CDB50086040B /* SimplePlayEngine.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		2A59DA532BB3CDB50086040B /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA542BB3CDB50086040B /* MIDIManager.swift */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		2A59DA582BB3CDB50086040B /* String */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA592BB3CDB50086040B /* StringHelpers.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		2A59DA5B2BB3CDB50086040B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA5C2BB3CDB50086040B /* AudioUnitHostModel.swift */,
+				2A59DA5E2BB3CDB50086040B /* AudioUnitViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A59DA622BB3CDB50086040B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA632BB3CDB50086040B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A59DA702BB3CDB60086040B /* TestAUMacExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA712BB3CDB60086040B /* README.md */,
+				2A59DA9A2BB3CDB60086040B /* Info.plist */,
+				2A59DA732BB3CDB60086040B /* Common */,
+				2A59DA842BB3CDB60086040B /* Parameters */,
+				2A59DA882BB3CDB60086040B /* DSP */,
+				2A59DA8C2BB3CDB60086040B /* UI */,
+			);
+			path = TestAUMacExtension;
+			sourceTree = "<group>";
+		};
+		2A59DA732BB3CDB60086040B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA742BB3CDB60086040B /* TestAUMacExtension-Bridging-Header.h */,
+				2A59DA752BB3CDB60086040B /* Parameters */,
+				2A59DA782BB3CDB60086040B /* Utility */,
+				2A59DA7D2BB3CDB60086040B /* Audio Unit */,
+				2A59DA812BB3CDB60086040B /* DSP */,
+				2A59DA912BB3CDB60086040B /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2A59DA752BB3CDB60086040B /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA762BB3CDB60086040B /* ParameterSpecBase.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		2A59DA782BB3CDB60086040B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA792BB3CDB60086040B /* CrossPlatform.swift */,
+				2A59DA7B2BB3CDB60086040B /* String+Utils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2A59DA7D2BB3CDB60086040B /* Audio Unit */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA7E2BB3CDB60086040B /* TestAUMacExtensionAudioUnit.h */,
+				2A59DA7F2BB3CDB60086040B /* TestAUMacExtensionAudioUnit.mm */,
+			);
+			path = "Audio Unit";
+			sourceTree = "<group>";
+		};
+		2A59DA812BB3CDB60086040B /* DSP */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA822BB3CDB60086040B /* TestAUMacExtensionAUProcessHelper.hpp */,
+			);
+			path = DSP;
+			sourceTree = "<group>";
+		};
+		2A59DA842BB3CDB60086040B /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA852BB3CDB60086040B /* TestAUMacExtensionParameterAddresses.h */,
+				2A59DA862BB3CDB60086040B /* Parameters.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		2A59DA882BB3CDB60086040B /* DSP */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA892BB3CDB60086040B /* SinOscillator.h */,
+				2A59DA8A2BB3CDB60086040B /* TestAUMacExtensionDSPKernel.hpp */,
+			);
+			path = DSP;
+			sourceTree = "<group>";
+		};
+		2A59DA8C2BB3CDB60086040B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA8D2BB3CDB60086040B /* TestAUMacExtensionMainView.swift */,
+				2A59DA8F2BB3CDB60086040B /* ParameterSlider.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2A59DA912BB3CDB60086040B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA962BB3CDB60086040B /* ObservableAUParameter.swift */,
+				2A59DA982BB3CDB60086040B /* AudioUnitViewController.swift */,
+				2AB4CEA02BB4FE7D00707899 /* Mac */,
+				2A2E30AC2BB4FCC700602391 /* iOS */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2AB4CEA02BB4FE7D00707899 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				2AB4CEB12BB5023100707899 /* AudioUnitViewController.xib */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2E307E2BB4FAA400602391 /* TestAUMac_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2E308C2BB4FAA700602391 /* Build configuration list for PBXNativeTarget "TestAUMac_iOS" */;
+			buildPhases = (
+				2A2E307B2BB4FAA400602391 /* Sources */,
+				2A2E307C2BB4FAA400602391 /* Frameworks */,
+				2A2E307D2BB4FAA400602391 /* Resources */,
+				2AB4CEAA2BB4FF6D00707899 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB4CEA92BB4FF6D00707899 /* PBXTargetDependency */,
+			);
+			name = TestAUMac_iOS;
+			productName = TestAUMac_iOS;
+			productReference = 2A2E307F2BB4FAA400602391 /* TestAUMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A2E30932BB4FC5F00602391 /* TestAUMacExtension_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2E30A42BB4FC5F00602391 /* Build configuration list for PBXNativeTarget "TestAUMacExtension_iOS" */;
+			buildPhases = (
+				2A2E30942BB4FC5F00602391 /* Sources */,
+				2A2E309E2BB4FC5F00602391 /* Frameworks */,
+				2A2E309F2BB4FC5F00602391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAUMacExtension_iOS;
+			productName = TestAUMacExtension;
+			productReference = 2A2E30A72BB4FC5F00602391 /* TestAUMacExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2A59DA442BB3CDB50086040B /* TestAUMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A59DAA12BB3CDB60086040B /* Build configuration list for PBXNativeTarget "TestAUMac" */;
+			buildPhases = (
+				2A59DA412BB3CDB50086040B /* Sources */,
+				2A59DA422BB3CDB50086040B /* Frameworks */,
+				2A59DA432BB3CDB50086040B /* Resources */,
+				2A59DAA02BB3CDB60086040B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A59DA6F2BB3CDB60086040B /* PBXTargetDependency */,
+			);
+			name = TestAUMac;
+			productName = TestAUMac;
+			productReference = 2A59DA452BB3CDB50086040B /* TestAUMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A59DA6B2BB3CDB60086040B /* TestAUMacExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A59DA9D2BB3CDB60086040B /* Build configuration list for PBXNativeTarget "TestAUMacExtension" */;
+			buildPhases = (
+				2A59DA682BB3CDB60086040B /* Sources */,
+				2A59DA692BB3CDB60086040B /* Frameworks */,
+				2A59DA6A2BB3CDB60086040B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAUMacExtension;
+			productName = TestAUMacExtension;
+			productReference = 2A59DA6C2BB3CDB60086040B /* TestAUMacExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A59DA3D2BB3CDB50086040B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2A2E307E2BB4FAA400602391 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2A59DA442BB3CDB50086040B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					2A59DA6B2BB3CDB60086040B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2A59DA402BB3CDB50086040B /* Build configuration list for PBXProject "TestAUMac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A59DA3C2BB3CDB50086040B;
+			productRefGroup = 2A59DA462BB3CDB50086040B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A59DA442BB3CDB50086040B /* TestAUMac */,
+				2A59DA6B2BB3CDB60086040B /* TestAUMacExtension */,
+				2A2E307E2BB4FAA400602391 /* TestAUMac_iOS */,
+				2A2E30932BB4FC5F00602391 /* TestAUMacExtension_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2E307D2BB4FAA400602391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2E30892BB4FAA700602391 /* Preview Assets.xcassets in Resources */,
+				2A2E30862BB4FAA700602391 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2E309F2BB4FC5F00602391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2E30A02BB4FC5F00602391 /* TestAUMacExtensionDSPKernel.hpp in Resources */,
+				2AB4CEB62BB5029500707899 /* AudioUnitViewController.xib in Resources */,
+				2A2E30A12BB4FC5F00602391 /* TestAUMacExtensionAUProcessHelper.hpp in Resources */,
+				2A2E30A22BB4FC5F00602391 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A59DA432BB3CDB50086040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A59DA642BB3CDB50086040B /* Preview Assets.xcassets in Resources */,
+				2A59DA662BB3CDB60086040B /* Assets.xcassets in Resources */,
+				2A59DA502BB3CDB50086040B /* Synth.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A59DA6A2BB3CDB60086040B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A59DA8B2BB3CDB60086040B /* TestAUMacExtensionDSPKernel.hpp in Resources */,
+				2AB4CEB22BB5023100707899 /* AudioUnitViewController.xib in Resources */,
+				2A59DA832BB3CDB60086040B /* TestAUMacExtensionAUProcessHelper.hpp in Resources */,
+				2A59DA722BB3CDB60086040B /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2E307B2BB4FAA400602391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2E30842BB4FAA400602391 /* ContentView.swift in Sources */,
+				2A2E30822BB4FAA400602391 /* TestAUMac_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2E30942BB4FC5F00602391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2E30952BB4FC5F00602391 /* Parameters.swift in Sources */,
+				2A2E30962BB4FC5F00602391 /* TestAUMacExtensionAudioUnit.mm in Sources */,
+				2A2E30972BB4FC5F00602391 /* ObservableAUParameter.swift in Sources */,
+				2A2E30982BB4FC5F00602391 /* TestAUMacExtensionMainView.swift in Sources */,
+				2A2E30992BB4FC5F00602391 /* ParameterSpecBase.swift in Sources */,
+				2A2E309A2BB4FC5F00602391 /* AudioUnitViewController.swift in Sources */,
+				2A2E309B2BB4FC5F00602391 /* ParameterSlider.swift in Sources */,
+				2A2E309C2BB4FC5F00602391 /* CrossPlatform.swift in Sources */,
+				2A2E309D2BB4FC5F00602391 /* String+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A59DA412BB3CDB50086040B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A59DA5D2BB3CDB50086040B /* AudioUnitHostModel.swift in Sources */,
+				2A59DA5F2BB3CDB50086040B /* AudioUnitViewModel.swift in Sources */,
+				2A59DA492BB3CDB50086040B /* ContentView.swift in Sources */,
+				2A59DA4D2BB3CDB50086040B /* ViewControllerRepresentable.swift in Sources */,
+				2A59DA5A2BB3CDB50086040B /* StringHelpers.swift in Sources */,
+				2A59DA552BB3CDB50086040B /* MIDIManager.swift in Sources */,
+				2A59DA572BB3CDB50086040B /* TypeAliases.swift in Sources */,
+				2A59DA522BB3CDB50086040B /* SimplePlayEngine.swift in Sources */,
+				2A59DA612BB3CDB50086040B /* TestAUMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A59DA682BB3CDB60086040B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A59DA872BB3CDB60086040B /* Parameters.swift in Sources */,
+				2A59DA802BB3CDB60086040B /* TestAUMacExtensionAudioUnit.mm in Sources */,
+				2A59DA972BB3CDB60086040B /* ObservableAUParameter.swift in Sources */,
+				2A59DA8E2BB3CDB60086040B /* TestAUMacExtensionMainView.swift in Sources */,
+				2A59DA772BB3CDB60086040B /* ParameterSpecBase.swift in Sources */,
+				2A59DA992BB3CDB60086040B /* AudioUnitViewController.swift in Sources */,
+				2A59DA902BB3CDB60086040B /* ParameterSlider.swift in Sources */,
+				2A59DA7A2BB3CDB60086040B /* CrossPlatform.swift in Sources */,
+				2A59DA7C2BB3CDB60086040B /* String+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A59DA6F2BB3CDB60086040B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A59DA6B2BB3CDB60086040B /* TestAUMacExtension */;
+			targetProxy = 2A59DA6E2BB3CDB60086040B /* PBXContainerItemProxy */;
+		};
+		2AB4CEA92BB4FF6D00707899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2E30932BB4FC5F00602391 /* TestAUMacExtension_iOS */;
+			targetProxy = 2AB4CEA82BB4FF6D00707899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AB4CEB12BB5023100707899 /* AudioUnitViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB4CEB02BB5023100707899 /* Base */,
+			);
+			name = AudioUnitViewController.xib;
+			sourceTree = "<group>";
+		};
+		2AB4CEB52BB5029500707899 /* AudioUnitViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB4CEB42BB5029500707899 /* Base */,
+			);
+			name = AudioUnitViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2E308A2BB4FAA700602391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestAUMac_iOS/TestAUMac_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestAUMac_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac;
+				PRODUCT_NAME = TestAUMac;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A2E308B2BB4FAA700602391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestAUMac_iOS/TestAUMac_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestAUMac_iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac;
+				PRODUCT_NAME = TestAUMac;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2E30A52BB4FC5F00602391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestAUMacExtension copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TestAUMacExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac.TestAUMacExtension;
+				PRODUCT_NAME = TestAUMacExtension;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestAUMacExtension/Common/TestAUMacExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2A2E30A62BB4FC5F00602391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TestAUMacExtension copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TestAUMacExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac.TestAUMacExtension;
+				PRODUCT_NAME = TestAUMacExtension;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestAUMacExtension/Common/TestAUMacExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		2A59DA9B2BB3CDB60086040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A59DA9C2BB3CDB60086040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2A59DA9E2BB3CDB60086040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAUMacExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestAUMacExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac.TestAUMacExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestAUMacExtension/Common/TestAUMacExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A59DA9F2BB3CDB60086040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAUMacExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestAUMacExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac.TestAUMacExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestAUMacExtension/Common/TestAUMacExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A59DAA22BB3CDB60086040B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestAUMac/TestAUMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestAUMac/Preview Content\"";
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TestAUMac;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A59DAA32BB3CDB60086040B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestAUMac/TestAUMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestAUMac/Preview Content\"";
+				DEVELOPMENT_TEAM = E87CZ3V66S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TestAUMac;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					AVFoundation,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kiraqtech.TestAUMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2E308C2BB4FAA700602391 /* Build configuration list for PBXNativeTarget "TestAUMac_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2E308A2BB4FAA700602391 /* Debug */,
+				2A2E308B2BB4FAA700602391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2E30A42BB4FC5F00602391 /* Build configuration list for PBXNativeTarget "TestAUMacExtension_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2E30A52BB4FC5F00602391 /* Debug */,
+				2A2E30A62BB4FC5F00602391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A59DA402BB3CDB50086040B /* Build configuration list for PBXProject "TestAUMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A59DA9B2BB3CDB60086040B /* Debug */,
+				2A59DA9C2BB3CDB60086040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A59DA9D2BB3CDB60086040B /* Build configuration list for PBXNativeTarget "TestAUMacExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A59DA9E2BB3CDB60086040B /* Debug */,
+				2A59DA9F2BB3CDB60086040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A59DAA12BB3CDB60086040B /* Build configuration list for PBXNativeTarget "TestAUMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A59DAA22BB3CDB60086040B /* Debug */,
+				2A59DAA32BB3CDB60086040B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A59DA3D2BB3CDB50086040B /* Project object */;
+}
